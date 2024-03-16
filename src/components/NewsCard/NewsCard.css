@@ -1,0 +1,29 @@
+.newsCard{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: solid 1px black;
+    box-shadow: 2px 2px 2px black inset;
+}
+.newsText{
+    padding: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.newsImage{
+    height: 25vw;
+    width: 25vw;
+    display: flex;
+}
+.title{
+    font-weight: 700;
+}
+.imgg{
+    height: 25vw;
+    width: 25vw;
+    background-color: blanchedalmond;
+    /* display: block; */
+}
